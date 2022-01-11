@@ -1,5 +1,6 @@
 #container-fluid { 
-    color: #064663;
+    /* color: #064663; */
+    color: #45526C;
     font-family: Monsterrat;
     font-size: 130%;
     padding: 1%;
@@ -29,7 +30,7 @@ h2 {
 h3 {
     /* color: #064663; */
     font-family: Work Sans;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -67,7 +68,8 @@ hr {
 
 /* Introduction */
 .intro {
-    background: linear-gradient(53deg, #ECDBBA, #C84B31);
+    /* background: linear-gradient(53deg, #ECDBBA, #C84B31); */
+    background: linear-gradient(53deg, #F8F5F1, #F8A488);
     border-color: black;
     margin-top: 10px;
     padding: 3% 3% 7%;
@@ -75,7 +77,8 @@ hr {
 }
 
 .intro h1 {
-    color: #023047;
+    /* color: #023047; */
+    color: #45526C;
     /* color: #fff; */
     font-family: 'Cookie';
     font-size: 8rem; 
@@ -111,8 +114,9 @@ hr {
 }
 
 .intro h2 {
-    color: #2D4263;
-    font-size: 2rem;
+    /* color: #2D4263; */
+    color: #45526C;
+    font-size: 1.3rem;
     font-weight: 500;
     margin-top: 1.5%;
 }
@@ -149,9 +153,19 @@ hr {
 /* Skills */
 
 #skills {
-    background-color: #ECB390;
+    /* background-color: #ECB390; */
+    background-color: #5F939A;
     padding: 5% 10%;
     text-align: center;
+}
+
+#skills h2 {
+    color: #F8F5F1;
+    margin-bottom: 30px;
+}
+
+#skills p {
+    color: #F8F5F1;
 }
 
 .card-header {
@@ -166,10 +180,6 @@ hr {
 
 
 /* Portfolio and work */
-/*  
-#portfolio {
-    background-color: #ECB390;
-} */
 
 #portfolio h2 {
     text-align: center;
@@ -204,8 +214,13 @@ hr {
 /* Contact */
 
 #contact {
-    background-color: #DF7861;
+    /* background-color: #DF7861; */
+    background-color: #F8A488;
     text-align: center;
+}
+
+.contact-me h2 {
+    font-family: Ubuntu Mono;
 }
 
 .contact-me p {
@@ -214,6 +229,7 @@ hr {
 }
 
 .email {
+    font-family: Ubuntu Mono;
     margin-bottom: 1.5%;
 }
 
