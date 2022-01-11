@@ -1,0 +1,244 @@
+#container-fluid { 
+    color: #064663;
+    font-family: Monsterrat;
+    font-size: 130%;
+    padding: 1%;
+    padding-bottom: 0.5%;
+}
+
+/* Common Elements */
+
+section {
+    margin: 1% 1%;
+    padding: 2%;
+}
+
+section:hover {
+    transform: scale(1.03);
+}
+
+h2 {
+    /* color: #064663; */
+    font-family: Montserrat;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-top: 10px;
+    /* text-align: center; */
+}
+
+h3 {
+    /* color: #064663; */
+    font-family: Work Sans;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+p {
+    /* color: #064663; */
+    font-family: Work Sans;
+    line-height: 2.2;
+}
+
+a {
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+hr {
+    border: 2px solid grey;
+    height: 5px;
+    margin: 0 auto;
+    width: 10%;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #ECB390;
+    font-family: Ubuntu Mono;
+    font-size: 1rem;
+    font-weight: 700;
+    padding-left: 0.5%;
+}
+
+.navbar a {
+    color: #191919;
+}
+
+/* Introduction */
+.intro {
+    background: linear-gradient(53deg, #ECDBBA, #C84B31);
+    border-color: black;
+    margin-top: 10px;
+    padding: 3% 3% 7%;
+    text-align: center;
+}
+
+.intro h1 {
+    color: #023047;
+    /* color: #fff; */
+    font-family: 'Cookie';
+    font-size: 8rem; 
+    font-weight: bold;
+
+    animation-name: fade-in;
+    animation-duration: 0.75s;
+    animation-timing-function: linear;
+    /* Sacramento, Pacifico */
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        font-size: 4rem;
+    }
+    25% {
+        opacity: 0.25;
+        font-size: 5rem;
+    }
+    50% {
+        opacity: 0.5;
+        font-size: 6rem;
+    }
+    75% {
+        opacity: 0.75;
+        font-size: 7rem;
+    }
+    100% {
+        opacity: 1;
+        font-size: 8rem;
+    }
+}
+
+.intro h2 {
+    color: #2D4263;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 1.5%;
+}
+
+.intro div {
+    float: right;
+    text-align: right;
+    width: 10%;
+}
+
+
+/* Profile */
+#profile {
+    /* background: linear-gradient(45deg, #ECDBBA, #C84B31); */
+    padding: 5% 10%;
+    text-align: left;
+}
+
+.profile-photo {
+    margin: auto;
+}
+
+.profile-text {
+    font-family: Montserrat;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.profile h2 {
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Skills */
+
+#skills {
+    background-color: #ECB390;
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.card-header {
+    background-color: #F7F7F7;
+}
+
+.skill-list {
+    font-family: Work Sans;
+    line-height: 2;
+    text-align: left;
+}
+
+
+/* Portfolio and work */
+/*  
+#portfolio {
+    background-color: #ECB390;
+} */
+
+#portfolio h2 {
+    text-align: center;
+}
+
+.project-row {
+    background-color: #fff;
+    background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+    color: #303841;
+    font-family: Work Sans;
+    font-size: 1.4rem;
+}
+
+.project-row a {
+    color: #222831;
+}
+
+#estimate-column {
+    padding: 2%;
+    padding-left: 7%;
+}
+
+#estimate-column:hover{
+    border-color: #00909E;
+}
+
+.languages {
+    font-family: Ubuntu Mono;
+}
+
+/* Contact */
+
+#contact {
+    background-color: #DF7861;
+    text-align: center;
+}
+
+.contact-me p {
+    text-align: center;
+    padding: 0 30%;
+}
+
+.email {
+    margin-bottom: 1.5%;
+}
+
+/* Media */
+
+.footer {
+    padding-top: 3%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.social-icon {
+    color: grey;
+}
+
+.social-icon:hover {
+    color: #DF7861;
+}
+
+.copyright-text {
+    font-size: 0.9rem;
+}
+
+
+
+
+
