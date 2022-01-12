@@ -2,7 +2,7 @@
     /* color: #064663; */
     color: #45526C;
     font-family: Monsterrat;
-    font-size: 130%;
+    /* font-size: 130%; */
     padding: 1%;
     padding-bottom: 0.5%;
 }
@@ -21,7 +21,7 @@ section:hover {
 h2 {
     /* color: #064663; */
     font-family: Montserrat;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: bold;
     padding-top: 10px;
     /* text-align: center; */
@@ -30,7 +30,7 @@ h2 {
 h3 {
     /* color: #064663; */
     font-family: Work Sans;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -81,7 +81,7 @@ hr {
     color: #45526C;
     /* color: #fff; */
     font-family: 'Cookie';
-    font-size: 8rem; 
+    font-size: 5rem; 
     font-weight: bold;
 
     animation-name: fade-in;
@@ -93,23 +93,23 @@ hr {
 @keyframes fade-in {
     0% {
         opacity: 0;
-        font-size: 4rem;
+        font-size: 1rem;
     }
     25% {
         opacity: 0.25;
-        font-size: 5rem;
+        font-size: 2rem;
     }
     50% {
         opacity: 0.5;
-        font-size: 6rem;
+        font-size: 3rem;
     }
     75% {
         opacity: 0.75;
-        font-size: 7rem;
+        font-size: 4rem;
     }
     100% {
         opacity: 1;
-        font-size: 8rem;
+        font-size: 5rem;
     }
 }
 
@@ -136,6 +136,7 @@ hr {
 }
 
 .profile-photo {
+    text-align: center;
     margin: auto;
 }
 
@@ -187,15 +188,15 @@ hr {
 
 .project-row {
     background-color: #fff;
-    background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), linear-gradient(#eee .1em, transparent .1em);
-    background-size: 100% 1.2em;
     color: #303841;
     font-family: Work Sans;
-    font-size: 1.4rem;
+    /* font-size: 1.4rem; */
 }
 
 .project-row a {
     color: #222831;
+    font-weight: 700;
+    margin-left: auto;
 }
 
 #estimate-column {
@@ -208,7 +209,11 @@ hr {
 }
 
 .languages {
+    border-collapse: collapse;
+    border-spacing: 2rem;
     font-family: Ubuntu Mono;
+    /* font-weight: bold; */
+    width: auto !important;
 }
 
 /* Contact */
