@@ -216,10 +216,10 @@ hr {
     padding-right: 1%;
 }
 
-.estimate-column-img:hover {
+/* .estimate-column-img:hover {
     margin-top: -0.75%;
     box-shadow: 10px 10px;
-}
+} */
 
 #estimate-column:hover{
     border-color: #00909E;
