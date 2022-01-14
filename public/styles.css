@@ -1,15 +1,15 @@
-#container-fluid { 
+#container-fluid {
     /* color: #064663; */
     color: #45526C;
-    font-family: Monsterrat;
-    /* font-size: 130%; */
-    padding: none;
+    font-family: Nunito;
+    padding: 1%;
     padding-bottom: 0.5%;
 }
 
 /* Common Elements */
 
 section {
+    border-radius: 7px;
     margin: 1% 1%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -21,23 +21,23 @@ section:hover {
 
 h2 {
     /* color: #064663; */
-    font-family: Montserrat;
+    font-family: IBM Plex Mono;
     font-size: 3rem;
     font-weight: bold;
     padding-top: 10px;
-    /* text-align: center; */
+    text-align: center;
 }
 
 h3 {
     /* color: #064663; */
-    font-family: Work Sans;
+    font-family: Nunito;
     font-size: 2rem;
     font-weight: bold;
 }
 
 p {
     /* color: #064663; */
-    font-family: Work Sans;
+    font-family: Nunito;
     line-height: 2.2;
 }
 
@@ -53,14 +53,25 @@ hr {
     width: 10%;
 }
 
+
+
 /* Navbar */
 
 .navbar {
     background-color: #ECB390;
-    font-family: Ubuntu Mono;
-    font-size: 1rem;
-    font-weight: 700;
+    font-family: IBM Plex Mono;
+    font-size: 0.9rem;
+    font-weight: 500;
     padding-left: 0.5%;
+}
+
+.nav-link {
+    margin-left: 1%;
+    padding-left: 0;
+}
+
+.nav-button {
+    font-weight: bold;
 }
 
 .navbar a {
@@ -69,7 +80,6 @@ hr {
 
 /* Introduction */
 .intro {
-    /* background: linear-gradient(53deg, #ECDBBA, #C84B31); */
     background: linear-gradient(53deg, #F8F5F1, #F8A488);
     border-color: black;
     margin-top: 10px;
@@ -77,13 +87,14 @@ hr {
     text-align: center;
 }
 
+.intro:hover {
+    transform: none;
+}
+
 .intro h1 {
-    /* color: #023047; */
     color: #45526C;
-    /* color: #fff; */
-    font-family: 'Cookie';
-    font-size: 5rem; 
-    font-weight: bold;
+    font-family: Work Sans;
+    font-size: 5rem;
 
     animation-name: fade-in;
     animation-duration: 0.75s;
@@ -96,18 +107,22 @@ hr {
         opacity: 0;
         font-size: 1rem;
     }
+
     25% {
         opacity: 0.25;
         font-size: 2rem;
     }
+
     50% {
         opacity: 0.5;
         font-size: 3rem;
     }
+
     75% {
         opacity: 0.75;
         font-size: 4rem;
     }
+
     100% {
         opacity: 1;
         font-size: 5rem;
@@ -118,7 +133,7 @@ hr {
     /* color: #2D4263; */
     color: #45526C;
     font-size: 1.3rem;
-    font-weight: 500;
+    font-weight: 400;
     margin-top: 1.5%;
 }
 
@@ -142,14 +157,14 @@ hr {
 }
 
 .profile-text {
-    font-family: Montserrat;
+    font-family: IBM Plex Mono;
     font-weight: 400;
     text-align: justify;
 }
 
 .profile h2 {
     font-weight: bold;
-    text-align: left;
+    text-align: center;
 }
 
 /* Skills */
@@ -180,7 +195,7 @@ hr {
 
 
 .skill-list {
-    font-family: Work Sans;
+    font-family: Nunito;
     line-height: 2;
     text-align: left;
 }
@@ -195,7 +210,7 @@ hr {
 .project-row {
     background-color: #fff;
     color: #303841;
-    font-family: Work Sans;
+    font-family: Nunito;
     /* font-size: 1.4rem; */
 }
 
@@ -210,26 +225,25 @@ hr {
     /* padding-left: 7%; */
 }
 
-.estimate-column-img {
-    border-color: black;
-    object-fit: contain;
-    padding-right: 1%;
+#estimate-column:hover {
+    border-color: #00909E;
 }
 
-/* .estimate-column-img:hover {
-    margin-top: -0.75%;
-    box-shadow: 10px 10px;
-} */
+.estimate-image {
+    box-shadow: 15px 15px teal;
+    text-align: center;
+    margin: auto;
+}
 
-#estimate-column:hover{
-    border-color: #00909E;
+.estimate-image:hover {
+    box-shadow: 15px 15px lightgray;
 }
 
 .languages {
     border-collapse: collapse;
     border-spacing: 2rem;
-    font-family: Ubuntu Mono;
-    font-weight: bold;
+    font-family: IBM Plex Mono;
+    font-weight: 500;
     width: auto !important;
 }
 
@@ -238,11 +252,12 @@ hr {
 #contact {
     /* background-color: #DF7861; */
     background-color: #F8A488;
+    margin-top: 70px;
     text-align: center;
 }
 
 .contact-me h2 {
-    font-family: Ubuntu Mono;
+    font-family: Nunito;
 }
 
 .contact-me p {
@@ -251,7 +266,7 @@ hr {
 }
 
 .email {
-    font-family: Ubuntu Mono;
+    font-family: IBM Plex Mono;
     margin-bottom: 1.5%;
 }
 
@@ -276,7 +291,12 @@ hr {
     font-size: 0.9rem;
 }
 
+@media(max-width: 400) {
+    .profile-text h2 {
+        text-align: center;
+    }
 
-
-
-
+    /* .estimate-image {
+        width: 100%;
+    } */
+}
