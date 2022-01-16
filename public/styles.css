@@ -144,7 +144,6 @@ hr {
 
 /* Profile */
 #profile {
-  /* background: linear-gradient(45deg, #ECDBBA, #C84B31); */
   padding: 5% 10%;
   text-align: left;
 }
@@ -157,7 +156,7 @@ hr {
 .profile-text {
   font-family: IBM Plex Mono;
   font-weight: 400;
-  text-align: justify;
+  text-align: center;
 }
 
 .profile h2 {
@@ -168,7 +167,6 @@ hr {
 /* Skills */
 
 #skills {
-  /* background-color: #ECB390; */
   background-color: #5f939a;
   padding: 5% 10%;
   text-align: center;
