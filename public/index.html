@@ -32,7 +32,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Nunito:wght@400;700&family=Ubuntu+Mono&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Nunito:wght@400;600&family=Varela+Round&family=Work+Sans:wght@500;600&display=swap" rel="stylesheet">
 </head>
 
 <body id="container-fluid">
@@ -41,23 +41,11 @@
     <header>
 
         <!-- <nav class="navbar navbar-expand-md bg-light"> -->
-        <nav class="navbar navbar-expand-md bg-light navbar-light" style="background-color: #596E79;">
+        <nav class="navbar bg-light navbar-light" style="background-color: #596E79;">
 
             <!-- Brand and Developer Name -->
 
-            <a class="navbar-brand" href="https://github.com/kwesi-selorm"><b>jadorkor</b> <i class="fab fa-github"></i></a>
-
-            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" data-view-component="true"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span></button> -->
-
-            <!-- Navbar List Items -->
-
-            <!-- <div class="navbar-nav" id="navbarNavAltMarkup">
-                <a class="nav-item nav-link active" href="#skills">Skills <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#portfolio">Projects</a>
-                <a class="nav-item nav-link" href="#contact">Contact</a>
-            </div> -->
+            <a class="navbar-brand" href="https://github.com/kwesi-selorm"><i class="fab fa-github"></i></a>
 
         </nav>
 
@@ -88,8 +76,8 @@
                     opportunities.
                     Also learning about Python applications in software development and data
                     visualisation.
-                    <br>During my free time you'll find me hiking, playing padel tennis, or relaxed at home listening
-                    to my curated Spotify playlists. 
+                    <br>During my free time you'll find me <b>hiking</b>, <b>playing padel tennis</b>, or <b>relaxed at home listening
+                    to my curated Spotify playlists</b>. 
                 </p>
             </div>
         </div>
@@ -164,6 +152,8 @@
         <div class="container">
 
             <div class="row align-items-left project-row">
+
+                <!-- Estim8 column -->
                 <div id="estimate-column" class="col col-lg-7 border-dark">
                     <h3><a href="https://github.com/kwesi-selorm/-estim8">~estim8</a></h3>
                     <p>Built a webapp to assist shoppers to estimate how much they should expect to pay before reaching
@@ -174,6 +164,7 @@
                     <table class="table table-responsive languages" style="border-spacing: 10px;">
                         <tbody>
                             <tr>
+                                <td>EJS</td>
                                 <td>HTML</td>
                                 <td>CSS</td>
                                 <td>JavaScript</td>
@@ -182,7 +173,6 @@
                                 <td>Bootstrap</td>
                                 <td>Node.js</td>
                                 <td>Express</td>
-                                <td>EJS</td>
                             </tr>
                         </tbody>
                     </table>
@@ -191,6 +181,40 @@
                 <div class="col col-lg-5 estimate-image">
                     <a href="https://github.com/kwesi-selorm/-estim8"><img src="estim8.jpg" style="object-fit: contain; border-radius:5px" class="img-fluid"
                         alt="estim8 screenshot"></a>
+                </div>
+
+                <div class="w-100"></div>
+
+                <!-- The Recipe App Section -->
+                <div id="the-recipe-app-column" class="col col-lg-7 border-dark">
+                    <h3><a href="https://github.com/kwesi-selorm/The-Recipe-App">The Recipe App</a></h3>
+                    <p>The Recipe App uses an external API to provide recipe, food and nutritional features. 
+                        The first feature (which is completed) is the recipe functionality which generates a list of recipes
+                        based on user inputs, like ingredients that they have available, and the number of recipes they want.
+                        The endpoint implemented allows the user to find recipes that either maximize the usage of ingredients 
+                        available or minimize the ingredients they don't have. The next feature to be implemented 
+                        is the retrieval of recipe steps rendered on possibly a recipe card or new page.
+                        Additional functionality will be added as the app is progressed.<br>
+                    <table class="table table-responsive languages" style="border-spacing: 10px;">
+                        <tbody>
+                            <tr>
+                                <td>EJS</td>
+                                <td>JavaScript</td>
+                                <td>CSS</td>
+                                <td>HTML</td> 
+                            </tr>
+                            <tr>
+                                <td>Bootstrap</td>
+                                <td>Node.js</td>
+                                <td>Express</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="col col-lg-5 the-recipe-app-image">
+                    <a href="https://github.com/kwesi-selorm/The-Recipe-App"><img src="the-recipe-app.png" style="object-fit: contain; border-radius:5px" class="img-fluid"
+                        alt="the-recipe-app screenshot"></a>
                 </div>
                 <div class="w-100"></div>
             </div>
@@ -204,8 +228,8 @@
     <section id="contact">
         <div class="contact-me">
             <h2>Get In Touch</h2>
-            <button type="button" class="btn btn-danger btn-lg email"><i class="fas fa-envelope"></i>
-                e-mail</a></button>
+            <button type="button" class="btn btn-light btn-lg email"><i class="fas fa-envelope"></i>
+                e-mail</button>
         </div>
     </section>
 
