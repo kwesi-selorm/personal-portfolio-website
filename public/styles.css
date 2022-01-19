@@ -91,7 +91,7 @@ hr {
 
 .intro h2 {
   color: #064663;
-  font-family: "Courier Prime";
+  font-family: "Fira Code";
   font-size: 1.8rem;
   font-weight: 400;
   margin-top: 1.5%;
@@ -189,7 +189,8 @@ hr {
 .languages {
   border-collapse: collapse;
   background-color: #ecb365;
-  font-weight: 500;
+  font-family: Fira Code;
+  font-weight: 600;
   /* width: auto !important; */
 }
 
@@ -209,9 +210,9 @@ hr {
 .email {
   background-color: #ecb365;
   border: 1px solid #041c32;
-  font-family: "Courier Prime";
+  font-family: "Fira Code";
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 1.5%;
 }
 
