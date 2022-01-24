@@ -41,9 +41,8 @@ p {
   line-height: 2.2;
 }
 
-a {
-  margin: 10px 20px;
-  text-decoration: none;
+.fab:hover {
+  color: #ecb365;
 }
 
 hr {
@@ -195,8 +194,7 @@ hr {
 }
 
 .project-column a {
-  color: #041c32;
-  margin-left: 0;
+  color: #064663;
 }
 
 .languages {
@@ -240,10 +238,6 @@ hr {
 
 .social-icon {
   color: black;
-}
-
-.social-icon:hover {
-  color: #ecb365;
 }
 
 .copyright-text {
