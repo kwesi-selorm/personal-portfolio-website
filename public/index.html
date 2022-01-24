@@ -88,15 +88,11 @@
         </div>
 
         <div class="col-lg-9 profile-text">
-          <h2>Velkommen.</h2>
           <p>
-            Thanks for visiting my page. A little about myself: I am a Ghanaian
-            currently living and working in Stavanger, Norway. A developer
-            proficient in web development using HTML, CSS, and JavaScript with
-            the accompanying frameworks and libraries. I am an avid learner
-            always curious to keep up with the highly-evolving technology trends
-            and opportunities. Also learning about Python applications in
-            software development and data visualisation.
+            WELCOME, and thanks for visiting my page. A little about myself: I
+            am a Ghanaian currently living and working in Stavanger, Norway. A
+            developer proficient in web development using diverse technologies
+            and tools. Do check out my projects!
             <br />During my free time you'll find me <b>hiking</b>,
             <b>playing padel tennis</b>, or
             <b>relaxed at home listening to my curated Spotify playlists</b>.
@@ -106,10 +102,9 @@
     </section>
 
     <!-- Skills -->
-    <hr />
 
     <section id="skills">
-      <div class="row">
+      <div class="row" style="--bs-gutter-x: 0">
         <h2>Skills</h2>
         <p>
           Below is a summary of my relevant web development and engineering
@@ -172,103 +167,78 @@
       </div>
     </section>
 
-    <hr />
-
     <!-- Portfolio and Projects -->
 
     <section id="portfolio">
       <h2>Projects</h2>
 
-      <!-- Estim8 Section -->
       <div class="row">
-        <div class="col-md-7 col-sm-12 col-12 project-column">
+        <!-- Estim8 Column -->
+        <div class="col-md-6 col-sm-12 col-12 project-column">
           <!-- Estim8 description -->
-          <h3>
-            ~estim8
-            <a href="https://github.com/kwesi-selorm/-estim8" target="_blank"
-              ><i class="fab fa-github"></i
-            ></a>
-          </h3>
+
+          <a href="https://github.com/kwesi-selorm/-estim8" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+
+          <!-- Estim8 image -->
+          <div style="margin: auto; object-fit: contain">
+            <a
+              style="margin-left: 0"
+              href="https://github.com/kwesi-selorm/-estim8"
+              ><img
+                class="img-fluid rounded project-image"
+                style="width: 100%; box-shadow: 4px 4px grey"
+                src="estim8.jpg"
+                alt="estim8 screenshot"
+            /></a>
+          </div>
+          <!-- Estim8 description -->
           <p>
-            Built a webapp to assist shoppers to estimate how much they should
-            expect to pay before reaching the payment terminal or counter. New
-            items are added in real-time as shoppers drop new items into their
-            cart. It is easy-to-use and the web page is designed to adjust to
-            various device screens, specifically mobile phones. The back-end
-            development was accomplished with Node.js
+            A web app to assist shoppers to estimate how much their shopping
+            costs in real-time as they add items to their carts.
           </p>
           <p class="languages">
             EJS, HTML, CSS, JavaScript, Bootstrap, Node.js, Express
           </p>
         </div>
-        <!-- Estim8 image -->
-        <div
-          class="col-md-5 col-sm-12 col-12"
-          style="margin: auto; object-fit: contain; margin-bottom: 10%"
-        >
+
+        <!-- The Recipe App Column -->
+
+        <div class="col-md-6 col-sm-12 col-12 project-column">
           <a
-            style="margin-left: 0"
-            href="https://github.com/kwesi-selorm/-estim8"
-            ><img
-              class="img-fluid rounded"
-              style="width: 100%; box-shadow: 4px 4px grey"
-              src="estim8.jpg"
-              alt="estim8 screenshot"
-          /></a>
-        </div>
-      </div>
+            href="https://github.com/kwesi-selorm/The-Recipe-App"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://recipe-webapplication.herokuapp.com/" target="_blank"
+            ><i class="fab fa-chrome"></i
+          ></a>
 
-      <!-- The Recipe App Section -->
-      <div class="row">
-        <div class="col-md-7 col-sm-12 col-12 project-column">
-          <!-- The Recipe App description -->
-
-          <h3>
-            The Recipe App
+          <!-- The Recipe App image -->
+          <div style="margin: auto; object-fit: contain">
             <a
-              href="https://github.com/kwesi-selorm/The-Recipe-App"
-              target="_blank"
-              ><i class="fab fa-github"></i
-            ></a>
-            <a
+              style="margin-left: 0"
               href="https://recipe-webapplication.herokuapp.com/"
               target="_blank"
-              ><i class="fab fa-chrome"></i
-            ></a>
-          </h3>
+              ><img
+                class="img-fluid rounded project-image"
+                style="width: 100%; box-shadow: 4px 4px grey"
+                src="the-recipe-app.png"
+                alt="the-recipe-app screenshot"
+            /></a>
+          </div>
+          <!-- The Recipe App description -->
           <p>
-            The Recipe App uses an external API to provide recipe, food and
-            nutritional features. The first feature (which is completed) is the
-            recipe functionality which generates a list of recipes based on user
-            inputs, like ingredients that they have available, and the number of
-            recipes they want. The endpoint implemented allows the user to find
-            recipes that either maximize the usage of ingredients available or
-            minimize the ingredients they don't have. The next feature to be
-            implemented is the retrieval of recipe steps rendered on possibly a
-            recipe card or new page. Additional functionality will be added as
-            the app is progressed.
+            Generates a list of recipes based on user inputs like ingredients of
+            choice/available at home, and the number of recipes.
           </p>
           <p class="languages">
             EJS, JavaScript, CSS, HTML, Bootstrap, Node.js, Express
           </p>
         </div>
-
-        <!-- The Recipe App image -->
-        <div
-          class="col-md-5 col-sm-12 col-12"
-          style="margin: auto; object-fit: contain; margin-bottom: 10%"
-        >
-          <a
-            style="margin-left: 0"
-            href="https://github.com/kwesi-selorm/The-Recipe-App"
-            ><img
-              class="img-fluid rounded"
-              style="width: 100%; box-shadow: 4px 4px grey"
-              src="the-recipe-app.png"
-              alt="the-recipe-app screenshot"
-          /></a>
-        </div>
       </div>
+      <!-- End of row -->
     </section>
 
     <!-- Contact -->
@@ -283,8 +253,6 @@
         >
       </div>
     </section>
-
-    <hr />
 
     <!-- Media -->
 

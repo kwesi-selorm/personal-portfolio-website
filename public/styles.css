@@ -2,7 +2,6 @@
   color: #064663;
   font-family: Nunito;
   font-size: 1.2rem;
-  padding: 1%;
   padding-bottom: 0.5%;
   padding-top: 0;
 }
@@ -10,14 +9,9 @@
 /* Common Elements */
 
 section {
-  border-radius: 7px;
-  margin: 2% 2%;
-  padding-top: 1%;
-  padding-bottom: 1%;
-}
-
-section:hover {
-  transform: scale(1.03);
+  margin-top: 8%;
+  margin-bottom: 8%;
+  padding: 1% 15% 1%;
 }
 
 h2 {
@@ -104,7 +98,8 @@ hr {
 
 /* Profile */
 #profile {
-  padding: 5% 10%;
+  padding-left: 15%;
+  padding-right: 15%;
   text-align: left;
 }
 
@@ -115,8 +110,9 @@ hr {
 
 .profile-text {
   font-family: Nunito;
+  font-size: 1.3rem;
   font-weight: 400;
-  text-align: left;
+  text-align: center;
 }
 
 .profile-text h2 {
@@ -127,7 +123,7 @@ hr {
 /* Skills */
 
 #skills {
-  padding: 5% 5%;
+  padding: 1% 15% 1%;
   text-align: center;
   transform: none;
 
@@ -151,6 +147,7 @@ hr {
 
 #skills h2 {
   color: #fff;
+
   margin-bottom: 30px;
 }
 
@@ -168,13 +165,14 @@ hr {
 
 .skill-list {
   font-family: Nunito;
+  font-size: 1.1rem;
   line-height: 2;
   text-align: left;
 }
 
 /* Portfolio and work */
 
-#portfolio h2 {
+#portfolio {
   text-align: center;
 }
 
@@ -190,6 +188,7 @@ hr {
 }
 
 .project-column {
+  margin-top: 5%;
   padding-bottom: 7%;
 }
 
@@ -199,9 +198,11 @@ hr {
 
 .languages {
   border-collapse: collapse;
+  border-radius: 5px;
   background-color: #ecb365;
   font-family: Fira Code;
   font-weight: 600;
+  font-size: 0.8rem;
   /* width: auto !important; */
 }
 
